@@ -2,7 +2,7 @@
 
 1. Установите Python 3.9 или новее: https://www.python.org/downloads/
 2. Скачайте репозиторий (Code → Download ZIP) или клонируйте:
-   git clone https://github.com/ВАШ_НИК/lan-status-monitor.git
+   git clone https://github.com/feralit86-jpg/lan-status-monitor.git
 3. Откройте папку в PyCharm или VS Code.
 4. Запустите:
    - в PyCharm: правой кнопкой по main.py → Run 'main'
