@@ -1,16 +1,13 @@
-# ─── Виртуальные окружения ───────────────────────────────────
 .venv/
 venv/
 env/
 ENV/
 
-# ─── Кэш Python ──────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 
-# ─── Сборка и упаковка ───────────────────────────────────────
 build/
 dist/
 *.egg-info/
@@ -18,7 +15,6 @@ dist/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# ─── Тестирование и покрытие ─────────────────────────────────
 .pytest_cache/
 .coverage
 .coverage.*
@@ -26,19 +22,14 @@ htmlcov/
 .tox/
 .nox/
 
-# ─── PyCharm / IntelliJ IDEA ─────────────────────────────────
 .idea/
 *.iml
 *.iws
 *.ipr
 
-# ─── VS Code (если кто-то откроет) ───────────────────────────
 .vscode/
-
-# ─── Jupyter (на всякий случай) ──────────────────────────────
 .ipynb_checkpoints/
 
-# ─── Windows ─────────────────────────────────────────────────
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
@@ -47,20 +38,17 @@ Desktop.ini
 $RECYCLE.BIN/
 *.lnk
 
-# ─── macOS (если проверяющий откроет на Mac) ─────────────────
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
 
-# ─── Логи и временные файлы ──────────────────────────────────
 *.log
 *.tmp
 *.bak
 *.swp
 *~
 
-# ─── Файлы окружения (секреты, локальные настройки) ──────────
 .env
 .env.*
 !.env.example
